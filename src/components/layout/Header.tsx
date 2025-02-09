@@ -19,7 +19,7 @@ const Header = () => {
       </span>
 
       <span className={styles.login}>
-        <Button endIcon={<Person/>} variant='contained' color='success'>
+        <Button startIcon={<Person/>} variant='contained' color='success'>
           LogIn
         </Button>
       </span>
