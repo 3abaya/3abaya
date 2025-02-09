@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+$amiri-font: 'Amiri', serif;
+
+.headerContainer {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+    background: #0D1B16;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+    span {
+        flex: 1;
+    }
+
+    @media only screen and (max-width:800px) {
+     flex-direction: column;
+     span
+     {
+        margin-bottom: 10px;
+     }   
+    }
+}
+
+.headerLogo {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: $amiri-font;
+}
+
+.headerIcon {
+    img {
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+
+    max-width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.autoCompleteText {
+    background: white;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.headerSearchInput {
+    width: 100%;
+}
+
+.login {
+    max-width: 20%;
+    display: flex;
+    justify-content: center;
+
+    button {
+        font-weight: bold;
+    }
+
+}
