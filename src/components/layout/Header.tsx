@@ -4,7 +4,7 @@ import SearchAutocomplete from './SearchAutocomplete';
 import appIcon from '../../assets/appIcon.webp';
 import Image from 'next/image';
 import { Button } from '@mui/material';
-import { Login, Person } from '@mui/icons-material';
+import { Person } from '@mui/icons-material';
 
 const Header = () => {
   return (
