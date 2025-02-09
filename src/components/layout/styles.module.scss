@@ -6,7 +6,7 @@ $amiri-font: 'Amiri', serif;
     top: 0px;
     left: 0px;
     width: 100%;
-    
+
     background: #0D1B16;
     display: flex;
     align-items: center;
@@ -17,11 +17,11 @@ $amiri-font: 'Amiri', serif;
     }
 
     @media only screen and (max-width:800px) {
-     flex-direction: column;
-     span
-     {
-        margin-bottom: 10px;
-     }   
+        flex-direction: column;
+
+        span {
+            margin-bottom: 20px;
+        }
     }
 }
 
@@ -41,6 +41,12 @@ $amiri-font: 'Amiri', serif;
     max-width: 20%;
     display: flex;
     justify-content: space-around;
+
+
+    @media only screen and (max-width:800px) {
+        max-width: 100%;
+    }
+
 }
 
 
@@ -62,6 +68,10 @@ $amiri-font: 'Amiri', serif;
 
     button {
         font-weight: bold;
+    }
+
+    @media only screen and (max-width:800px) {
+        max-width: 100%;
     }
 
 }
