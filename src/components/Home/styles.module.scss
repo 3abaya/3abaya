@@ -1,9 +1,40 @@
-.bannerContainer
-{
+.bannerContainer {
     background-color: darkgray;
     height: 400px;
-    border-radius: 10px;
+    margin-top: 10px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    border-radius: 10px;
+
+    img {
+        border-radius: 10px;
+    }
+}
+
+.homeHeaderList {
+    display: flex;
+    background-color: #E4C78F;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    justify-content: center;
+    li
+    {
+        max-width: 150px;
+        text-decoration: underline;
+        img
+        {
+            border-radius: 50%;
+        }
+    }
+}
+
+.listItem {
+    span {
+        color: #1B2D1E;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
 }

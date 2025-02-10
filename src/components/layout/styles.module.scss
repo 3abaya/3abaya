@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Cinzel&display=swap');
 
-$amiri-font: 'Amiri', serif;
+
 
 .headerContainer {
     top: 0px;
@@ -26,10 +26,13 @@ $amiri-font: 'Amiri', serif;
 }
 
 .headerLogo {
-    color: white;
+    font-size: 42px;
     font-weight: bold;
-    font-size: 2rem;
-    font-family: $amiri-font;
+    color: #D4AF37; /* Soft Gold */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+    margin-left: 5px;
+    display: inline-block;
 }
 
 .headerIcon {
